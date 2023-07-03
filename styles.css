@@ -136,8 +136,8 @@ header {
 }
 @media screen and (min-width: 700px) {
   .tic-tac-toe {
-    height: 30rem;
-    width: 30rem;
+    height: 25rem;
+    width: 25rem;
   }
 }
 @media screen and (min-width: 1300px) {
