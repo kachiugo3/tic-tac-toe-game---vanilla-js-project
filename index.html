@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe Game By Kachi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="winner-congrat"></div>
+    <div class="all-rules">
+      <h1>Here Are The Rules</h1>
+      <ol>
+        <li>1. Player 1 is X. Player 2 is O.</li>
+        <li>2. Player 1 goes first.</li>
+        <li>3. Players take turns putting their marks in empty squares.</li>
+        <li>
+          4. The first player to get 3 of their marks in a row (up, down,
+          across, or diagonally) is the winner.
+        </li>
+        <li>5. When all 9 squares are full, the game is over.</li>
+        <li>
+          6. If no player has 3 marks in a row at the end of the game, the game
+          ends in a tie.
+        </li>
+        <li>
+          6. Use the reset button to reset scoreline to 0 and start all over
+          again. Use the replay button to play another round.
+        </li>
+      </ol>
+      <button class="btn close-rules">Close</button>
+    </div>
+    <header>
+      <div class="header-center">
+        <section class="score-title"><h2>Scores</h2></section>
+        <section class="player-1">
+          <h3>Player 1 : <span class="playerX">0</span></h3>
+        </section>
+        <section class="player-2">
+          <h3>Player 2 : <span class="playerO">0</span></h3>
+        </section>
+      </div>
+    </header>
+    <main>
+      <div class="main-center">
+        <section class="tic-tac-toe">
+          <article class="tic1 tic" data-id="1"></article>
+          <article class="tic2 tic" data-id="2"></article>
+          <article class="tic3 tic" data-id="3"></article>
+          <article class="tic4 tic" data-id="4"></article>
+          <article class="tic5 tic" data-id="5"></article>
+          <article class="tic6 tic" data-id="6"></article>
+          <article class="tic7 tic" data-id="7"></article>
+          <article class="tic8 tic" data-id="8"></article>
+          <article class="tic9 tic" data-id="9"></article>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-center">
+        <button class="btn rules">RULES</button>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
