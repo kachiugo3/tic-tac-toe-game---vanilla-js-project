@@ -63,10 +63,10 @@ body {
   align-items: center;
   line-height: 1.5;
   text-align: center;
+  height: 100%;
 }
 
 .all-rules li {
-  font-size: 1.2rem;
   list-style: none;
   font-weight: bold;
   width: 90vw;
